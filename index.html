@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=`, initial-scale=1.0">
+      <title>pagebolt</title>
+      <!-- Main css -->
+      <link rel="stylesheet" href="css/main.css">
+   </head>
+   <body>
+      <!-- Hero Section Start -->
+      <section class="bg-[#001726] py-[200px]">
+         <div class="container px-5">
+            <div class="flex flex-col justify-between md:flex-row">
+               <div class="max-w-[500px]">
+                  <div class="bg-[#FFFFFF17] border border-[#FFFFFF1C] inline-flex items-center gap-2 rounded-full py-2 px-4">
+                     <span class="w-4">
+                        <img src="images/doller-box.webp">
+                     </span>
+                     <p class="text-white text-[12px] uppercase font-semibold tracking-widest">BEST LOAN SERVICING PLATFORM</p>
+                  </div>
+                  <h1 class="text-white text-4xl lg:text-6xl font-bold my-5 leading-[2.5rem] lg:leading-[4.5rem]">Our Flexible and <span class="text-primary">Affordable</span> Loan Solutions </h1>
+                  <p class="text-white text-lg">Twee sustainable salvia kitsch direct trade pour-over, asymmetrical tumeric coloring book chillwave lomo Brooklyn pitchfork.</p>
+                  <div class="mt-6 lg:mt-12">
+                     <img src="images/star.webp" class="w-[164px]">
+                     <span class="text-white text-sm mt-5 block">4.7/5 on TrustPilot</span>
+                  </div>
+               </div>
+               <div class="relative">
+                  <!-- <div class=""><img src="images/shape-1.webp" class="absolute -top-14 -left-10 w-[125px] none md:block"></div> -->
+                  <div class="bg-white py-6 px-8 rounded-xl mt-6 md:mt-0">
+                     <div class="text-center mb-8 border-b pb-8">
+                        <h5 class="text-[#16171C] text-xl font-semibold mb-3">Request a loan today!</h5>
+                        <p class="text-sm">Start your request online and we’ll find you a solution. </p>
+                     </div>
+                     <form action="post" class="space-y-6">
+                        <div class="grid lg:grid-cols-2 gap-4">
+                           <div>
+                              <label for="name" class="text-sm block font-semibold mb-2">First name</label>
+                              <input type="text" id="name" class="bg-[#F3F4F6] rounded-md outline-none border border-[#e6e9ec] pl-4 w-full h-[52px] text-base" placeholder="First name">
+                           </div>
+                           <div>
+                              <label for="lastname" class="text-sm block font-semibold mb-2">Last name</label>
+                              <input type="text" id="lastname" class="bg-[#F3F4F6] rounded-md outline-none border border-[#e6e9ec] pl-4 w-full h-[52px] text-base" placeholder="Last name">
+                           </div>
+                           <div>
+                              <label for="email" class="text-sm block font-semibold mb-2">Email</label>
+                              <input type="text" id="email" class="bg-[#F3F4F6] rounded-md outline-none border border-[#e6e9ec] pl-4 w-full h-[52px] text-base" placeholder="First name">
+                           </div>
+                           <div>
+                              <label for="number" class="text-sm block font-semibold mb-2">Phone number</label>
+                              <input type="text" id="number" class="bg-[#F3F4F6] rounded-md outline-none border border-[#e6e9ec] pl-4 w-full h-[52px] text-base" placeholder="Last name">
+                           </div>
+                        </div>
+                        <div>
+                           <label for="message" class="text-sm block font-semibold mb-2">Description</label>
+                           <textarea name="message" id="message" class="bg-[#F3F4F6] rounded-md outline-none border border-[#e6e9ec] pl-4 py-4 w-full h-[150px] text-base" placeholder="Enter a description...."></textarea>
+                        </div>
+                        <div>
+                           <button type="submit" class="bg-primary text-white text-base rounded-md block w-full p-4 focus:outline-none cursor-pointer
+                               hover:bg-black transition-all">Get Started</button>
+                        </div>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Hero Section End -->
+      <!-- Product Section Start -->
+      <section class="py-14 lg:pt-[90px] lg:pb-[160px]">
+         <div class="container px-5">
+            <div class="text-center max-w-[800px] mx-auto relative">
+               <h5 class="relative tracking-[2px] text-[12px] mb-6 font-semibold before:absolute before:w-[2px] before:-ml-2 before:top-0 before:h-6 before:bg-primary before:content-['']">PRODUCT</h5>
+               <h2 class="text-black text-3xl lg:text-5xl font-bold mb-3 md:my-5 leading-[2.5rem] lg:leading-[3.5rem]">Empower Your Dreams with Our <span class="text-[#2173FF]">Competitive</span> Loan Offers </h2>
+               <p class="text-base lg:text-lg max-w-[600px] mx-auto">Twee salvia kale chips quinoa mlkshk. Beard letterpress listicle, mukbang copper mug DIY helvetica yr offal succulents 3 wolf moon.</p>
+            </div>
+            <!-- Tab wrapper -->
+            <div class="tab-wrapper mt-12">
+               <div class="bg-[#EFF7FE] rounded-full py-2 px-4 max-w-full w-[500px] m-auto flex items-center gap-5 justify-between">
+                  <button id="active" class="inline-block bg-white shadow-md  text-sm lg:text-base font-bold px-4 py-3 rounded-full text-primary">Borrowing Money</button>
+                  <button class="inline-block bg-transparent shadow-transparent text-sm  lg:text-base font-bold px-4 py-3 rounded-full">Home Loans</button>
+                  <button class="inline-block bg-transparent shadow-transparent text-sm  lg:text-base font-bold px-4 py-3 rounded-full">CAR Loans</button>
+               </div>
+               <!-- Tab items Box -->
+               <div class="flex flex-col lg:flex-row gap-10 mt-16">
+                  <div class="tab-items bg-[url('/images/product-bg.jpg')] bg-no-repeat bg-contain bg-right-top bg-[#EFF7FE] rounded-xl pt-12 pb-8 px-8">
+                     <div class="text-center max-w-[350px] mx-auto">
+                        <h3 class="text-3xl font-bold leading-[2.6rem] mb-5">Fast and Easy Application Process</h3>
+                        <p class="text-base">Enamel pin portland tote bag, mlkshk blog mixtape poke butcher wolf. </p>
+                     </div>
+                     <div class="flex items-center gap-4 mt-12">
+                        <span>
+                           <img src="images/product-Image-1.webp" class="rounded-xl inline-block align-middle shadow-product-image">
+                        </span>
+                        <span>
+                           <img src="images/product-Image-2.webp" class="rounded-xl inline-block align-middle shadow-product-image">
+                        </span>
+                     </div>
+                  </div>
+                  <div class="tab-items bg-[url('/images/product-bg.jpg')] bg-no-repeat bg-contain bg-right-top bg-[#EFF7FE] rounded-xl pt-12 px-8">
+                     <div class="text-center max-w-[350px] mx-auto">
+                        <h3 class="text-3xl font-bold leading-[2.6rem] mb-5">Fast and Easy Application Process</h3>
+                        <p class="text-base">Enamel pin portland tote bag, mlkshk blog mixtape poke butcher wolf. </p>
+                     </div>
+                     <div class="mt-12 overflow-hidden">
+                        <img src="images/product-Image-3.webp" class="max-w-full rounded-t-xl shadow-product-image">
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Product Section End -->
+      <!-- Features Section Start -->
+      <section class="pb-[60px]">
+         <div class="container px-5">
+            <div class="flex flex-col gap-5 justify-between lg:flex-row">
+               <div class="max-w-full w-[600px]">
+                  <h5 class="relative tracking-[2px] text-[12px] mb-6 font-semibold before:absolute before:w-[2px] before:-ml-2 before:top-0 before:h-6 before:bg-primary before:content-['']">FEATURES</h5>
+                  <h2 class="text-black text-3xl lg:text-5xl font-bold mb-4 md:my-5 leading-[2.5rem] lg:leading-[3.5rem]">Secure Your Financial Future with Our Low-Interest Loan Services</h2>
+                  <p class="text-base lg:text-lg">Put a bird on it church-key etsy, salvia yr tumeric artisan. Green juice chambray mixtape microdosing tattooed copper mug 3 wolf moon chillwave.</p>
+                  <div class="mt-12 space-y-6">
+                     <li class="flex items-center gap-4 font-bold text-[1rem]">
+                        <span class="w-12 h-12 bg-[#EFF7FE] flex items-center justify-center rounded-full text-primary">
+                           <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                           </svg>
+                        </span> Easy application process
+                     </li>
+                     <li class="flex items-center gap-4 font-bold text-[1rem]">
+                        <span class="w-12 h-12 bg-[#EFF7FE] flex items-center justify-center rounded-full text-primary">
+                           <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                           </svg>
+                        </span> Easy application process
+                     </li>
+                     <li class="flex items-center gap-4 font-bold text-[1rem]">
+                        <span class="w-12 h-12 bg-[#EFF7FE] flex items-center justify-center rounded-full text-primary">
+                           <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                              <path stroke-linecap="round" stroke-linejoin="round" d="M4.5 12.75l6 6 9-13.5" />
+                           </svg>
+                        </span> Easy application process
+                     </li>
+                  </div>
+               </div>
+               <div>
+                  <div class="relative bg-[url('/images/features-dots.webp')] h-[470px] w-[500px] bg-repeat bg-cover bg-center">
+                     <figure>
+                        <img src="images/features-image-1.webp" class="w-[390px] ml-auto py-8 pr-8 rounded-lg">
+                     </figure>
+                     <figure>
+                        <img src="images/features-image-2.webp" class="absolute bottom-20 w-[312px] rounded-lg shadow-feature-image">
+                     </figure>
+                     <img src="images/features-image-3.webp" class="absolute top-20 w-[72px] left-24 rounded-lg shadow-feature-image">
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Features Bottom -->
+      <section class="pb-[60px] bg-black-secondery py-24">
+         <div class="container px-5">
+            <div class="flex flex-col gap-20 items-center justify-between lg:flex-row">
+               <div class="max-w-full w-[600px] order-2">
+                  <h5 class="relative text-white tracking-[2px] text-[12px] mb-6 font-semibold before:absolute before:w-[2px] before:-ml-2 before:top-0 before:h-6 before:bg-primary before:content-['']">FEATURES</h5>
+                  <h2 class="text-white text-3xl lg:text-5xl font-bold mb-4 md:my-5 leading-[2.5rem] lg:leading-[3.5rem]">Take control of your financial future with our tailored loan solutions</h2>
+                  <p class="text-base text-white lg:text-lg">Our quick and easy application process, competitive rates, and flexible terms make it easy to get the money you need to grow your business or consolidate debt</p>
+                  <a href="#" class="bg-primary text-white mt-10 text-base font-medium leading-[1em] py-4 px-10 rounded-md inline-flex items-center gap-2 hover:bg-white hover:text-black transition-all">Get started <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                     </svg>
+                  </a>
+               </div>
+               <div>
+                  <div class="order-0 max-w-[620px]">
+                     <div class="flex gap-5 mb-5">
+                        <figure>
+                           <img src="images/features-image-4.webp" class="rounded-lg ">
+                        </figure>
+                        <figure>
+                           <img src="images/features-image-5.webp" class="rounded-lg">
+                        </figure>
+                     </div>
+                     <figure>
+                        <img src="images/features-image-6.webp" class="rounded-lg">
+                     </figure>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Features Section End -->
+      <!-- Save Mony Section Start -->
+      <section class="mt-[100px]">
+         <div class="container bg-[#EFF7FE] py-20 max-w-[1380px] w-[90%] rounded-2xl">
+            <div class="text-center max-w-[700px] mx-auto px-4 md:px-0">
+               <h2 class="text-black text-3xl lg:text-5xl font-bold mb-4 md:my-5 leading-[2.5rem] lg:leading-[3.5rem]">Competitive rates to help you <span class="text-primary">save money</span> on your loan </h2>
+               <p class="text-base lg:text-lg max-w-[550px] mx-auto md:mt-12">Whether you’re looking to start a new business, expand your current one, or consolidate debt, we have the options and expertise to help you achieve your financial goals.</p>
+            </div>
+            <!--Box Item  -->
+            <div class="grid lg:grid-cols-3 md:grid-cols-2 gap-8 px-10 md:px-20 mt-12 lg:mt-16">
+               <div class="bg-white block shadow-save-money p-8 pb-10 rounded-xl">
+                  <div class="mb-5">
+                     <span class="bg-[#EDF7FF] overflow-hidden w-14 h-14 inline-flex items-center justify-center rounded-md">
+                        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                        </svg>
+                     </span>
+                  </div>
+                  <h4 class="text-lg lg:text-[1.5rem] font-bold mb-2">Secure and confidential</h4>
+                  <p>We understand the importance of keeping your personal and financial information secure. </p>
+               </div>
+               <div class="bg-white block shadow-save-money p-8 pb-10 rounded-xl">
+                  <div class="mb-5">
+                     <span class="bg-[#EDF7FF] overflow-hidden w-14 h-14 inline-flex items-center justify-center rounded-md">
+                        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                        </svg>
+                     </span>
+                  </div>
+                  <h4 class="text-lg lg:text-[1.5rem] font-bold mb-2">Helpful and friendly customer service </h4>
+                  <p>Our team of loan specialists is here to answer any questions you may have and help you through the process. </p>
+               </div>
+               <div class="bg-white block shadow-save-money p-8 pb-10 rounded-xl">
+                  <div class="mb-5">
+                     <span class="bg-[#EDF7FF] overflow-hidden w-14 h-14 inline-flex items-center justify-center rounded-md">
+                        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                        </svg>
+                     </span>
+                  </div>
+                  <h4 class="text-lg lg:text-[1.5rem] font-bold mb-2">No hidden fees</h4>
+                  <p>We believe in transparency and honesty. That’s why there are no hidden fees or surprises with our loans. </p>
+               </div>
+               <!-- Bootm -->
+               <div class="bg-white block shadow-save-money p-8 pb-10 rounded-xl">
+                  <div class="mb-5">
+                     <span class="bg-[#EDF7FF] overflow-hidden w-14 h-14 inline-flex items-center justify-center rounded-md">
+                        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                        </svg>
+                     </span>
+                  </div>
+                  <h4 class="text-lg lg:text-[1.5rem] font-bold mb-2">Competitive interest rates </h4>
+                  <p>We pride ourselves on offering some of the most competitive interest rates in the industry. </p>
+               </div>
+               <div class="bg-white block shadow-save-money p-8 pb-10 rounded-xl">
+                  <div class="mb-5">
+                     <span class="bg-[#EDF7FF] overflow-hidden w-14 h-14 inline-flex items-center justify-center rounded-md">
+                        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                        </svg>
+                     </span>
+                  </div>
+                  <h4 class="text-lg lg:text-[1.5rem] font-bold mb-2">Flexible repayment options</h4>
+                  <p>We offer a variety of repayment plans to fit your specific needs and budget.</p>
+               </div>
+               <div class="bg-white block shadow-save-money p-8 pb-10 rounded-xl">
+                  <div class="mb-5">
+                     <span class="bg-[#EDF7FF] overflow-hidden w-14 h-14 inline-flex items-center justify-center rounded-md">
+                        <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-10 h-10">
+                           <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 21h16.5M4.5 3h15M5.25 3v18m13.5-18v18M9 6.75h1.5m-1.5 3h1.5m-1.5 3h1.5m3-6H15m-1.5 3H15m-1.5 3H15M9 21v-3.375c0-.621.504-1.125 1.125-1.125h3.75c.621 0 1.125.504 1.125 1.125V21" />
+                        </svg>
+                     </span>
+                  </div>
+                  <h4 class="text-lg lg:text-[1.5rem] font-bold mb-2">Easy application process </h4>
+                  <p>Our online application is simple and straightforward, allowing you to apply for a loan in just a few minutes. </p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Save Mony Section End -->
+      <!-- Brand Logo Section Start -->
+      <section class="py-20 lg:pt-[100px]">
+         <div class="container px-5">
+            <div class="text-center mb-6">
+               <h4 class="font-bold text-lg">Trusted by specialists all around the world</h4>
+            </div>
+            <ul class="flex items-center justify-center">
+               <li>
+                  <img src="images/logo-1.webp" class="w-[130px]">
+               </li>
+               <li>
+                  <img src="images/logo-2.webp" class="w-[130px]">
+               </li>
+               <li>
+                  <img src="images/logo-3.webp" class="w-[130px]">
+               </li>
+               <li>
+                  <img src="images/logo-4.webp" class="w-[130px]">
+               </li>
+               <li>
+                  <img src="images/logo-5.webp" class="w-[130px]">
+               </li>
+               <li>
+                  <img src="images/logo-6.webp" class="w-[130px]">
+               </li>
+            </ul>
+         </div>
+      </section>
+      <!-- Brand Logo Section End -->
+      <!-- Testimonial Section Start -->
+      <section>
+         <div class="container px-5">
+            <div class="bg-white shadow-testimonial-box p-16 rounded-3xl relative">
+               <div class="slider-active">
+                  <div class="max-w-[590px]">
+                     <h4 class="font-semibold text-lg mb-2">David Fowler</h4>
+                     <span class="text-[15px] text-[#6d7882]">Freelancer</span>
+                     <ul class="flex gap-2 items-center mt-6">
+                        <li class="text-primary">
+                           <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                           </svg>
+                        </li>
+                        <li class="text-primary">
+                           <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                           </svg>
+                        </li>
+                        <li class="text-primary">
+                           <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                           </svg>
+                        </li>
+                        <li class="text-primary">
+                           <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                           </svg>
+                        </li>
+                        <li class="text-primary">
+                           <svg viewBox="0 0 24 24" fill="currentColor" class="w-5 h-5">
+                              <path fill-rule="evenodd" d="M10.788 3.21c.448-1.077 1.976-1.077 2.424 0l2.082 5.007 5.404.433c1.164.093 1.636 1.545.749 2.305l-4.117 3.527 1.257 5.273c.271 1.136-.964 2.033-1.96 1.425L12 18.354 7.373 21.18c-.996.608-2.231-.29-1.96-1.425l1.257-5.273-4.117-3.527c-.887-.76-.415-2.212.749-2.305l5.404-.433 2.082-5.006z" clip-rule="evenodd" />
+                           </svg>
+                        </li>
+                     </ul>
+                     <div class="mt-6">
+                        <p class="text-2xl font-semibold leading-[1.5em]">I was pleasantly surprised to receive a response so quickly, and the terms of the loan were very reasonable. </p>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- Testimonial Section End -->
+      <!-- FAQS Section Start -->
+      <section class="bg-[#EFF7FE] py-20 mt-20">
+         <div class="container px-5">
+            <div class="text-center max-w-[800px] mx-auto relative">
+               <h5 class="relative tracking-[2px] text-[12px] mb-6 font-semibold before:absolute before:w-[2px] before:-ml-2 before:top-0 before:h-6 before:bg-primary before:content-['']">FAQS</h5>
+               <h2 class="text-black text-3xl lg:text-5xl font-bold mb-3 md:my-5 leading-[2.5rem] lg:leading-[3.5rem]">Frequently asked questions</h2>
+            </div>
+         </div>
+         <!-- Accordion Start -->
+         <div class="max-w-[850px] mx-auto space-y-6 mt-12">
+            <div class="bg-white rounded-xl">
+               <div class="accordion-header flex items-center justify-between">
+                  <h3 class="text-lg lg:text-2xl font-semibold hover:text-primary transition-all">What types of loans do you offer? </h3>
+                  <span class="w-5 h-5 text-white bg-primary text-xl font-bold rounded-full flex items-center justify-center">+</span>
+               </div>
+               <div class="accordion-body pb-8">
+                  <p class="px-8 text-lg">We offer a wide range of loan options, including personal loans, home loans, car loans, and business loans.</p>
+               </div>
+            </div>
+            <div class="bg-white rounded-xl">
+               <div class="accordion-header flex items-center justify-between">
+                  <h3 class="text-lg lg:text-2xl font-semibold hover:text-primary transition-all">How much can I borrow? </h3>
+                  <span class="w-5 h-5 text-white bg-primary text-xl font-bold rounded-full flex items-center justify-center">+</span>
+               </div>
+               <div class="accordion-body pb-8">
+                  <p class="px-8 text-lg">We offer a wide range of loan options, including personal loans, home loans, car loans, and business loans.</p>
+               </div>
+            </div>
+            <div class="bg-white rounded-xl">
+               <div class="accordion-header flex items-center justify-between">
+                  <h3 class="text-lg lg:text-2xl font-semibold hover:text-primary transition-all">How long does the loan application process take? </h3>
+                  <span class="w-5 h-5 text-white bg-primary text-xl font-bold rounded-full flex items-center justify-center">+</span>
+               </div>
+               <div class="accordion-body pb-8">
+                  <p class="px-8 text-lg">We offer a wide range of loan options, including personal loans, home loans, car loans, and business loans.</p>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- FAQS Section End-->
+      <!-- Services Situation Section Start -->
+      <section class="mt-[50px]">
+         <div class="container px-5 bg-black py-10 px-20 rounded-xl">
+            <div class="max-w-[500px]">
+               <h2 class="text-white text-3xl lg:text-5xl font-bold mb-3 md:my-5 leading-[2.5rem] lg:leading-[3.5rem]">Hassle-Free Loan Services for Every Situation</h2>
+               <a href="#" class="bg-primary text-white mt-5 text-base font-medium leading-[1em] py-4 px-10 rounded-md inline-flex items-center gap-2  hover:bg-white hover:text-black transition-all">Get started <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-5 h-5">
+                     <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+                  </svg>
+               </a>
+            </div>
+         </div>
+      </section>
+      <!-- Services Situation Section End -->
+   </body>
+</html>
